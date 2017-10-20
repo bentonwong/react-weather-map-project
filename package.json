@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "0.9.x"
+    "react-scripts": "0.9.x",
+    "redux-promise": "^0.5.3"
   },
   "devDependencies": {},
   "scripts": {

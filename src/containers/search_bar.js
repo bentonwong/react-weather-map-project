@@ -16,13 +16,14 @@ export default class SearchBar extends Component {
 
   onFormSubmit(event) {
     event.preventDefault();
+
   }
 
   render() {
     return (
       <form onSubmit={this.onFormSubmit} className="input-group">
         <input
-          placeholder="Add search term here"
+          placeholder="Get a five-day forecast in your favorite cities"
           className="form-control"
           value={this.state.term}
           onChange={this.onInputChange} />
